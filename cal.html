@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<title>
+			CALCULATOR
+        </title>
+        
+        <link href="./cal.css" rel="stylesheet">
+	</head>
+
+<BODY>
+
+<div class="calculator">
+    <form name="cal">
+        <input class="input_text" type="text" name="output" placeholder="0" >
+<div class="button_div_1">     
+       <input class="button_div_1_button" type="button" value="MC" onclick="cal.output.value += 'MC'">
+       <input class="button_div_1_button" type="button" value="C" onclick="cal.output.value = ' '">
+       <input class="button_div_1_button" type="button" value="/" onclick="cal.output.value += '/'">
+       <input class="button_div_1_button" type="button" value="*" onclick="cal.output.value += '*'">
+</div>
+
+<div class="button_div_1">     
+        <input class="button_div_1_button" type="button" value="7" onclick="cal.output.value += '7'">
+        <input class="button_div_1_button" type="button" value="8" onclick="cal.output.value += '8'">
+        <input class="button_div_1_button"  type="button" value="9" onclick="cal.output.value += '9'">
+        <input class="button_div_1_button" type="button" value="-" onclick="cal.output.value += '-'">
+ </div>
+
+<div class="button_div_1">     
+        <input class="button_div_1_button" type="button" value="4" onclick="cal.output.value += '4'">
+        <input class="button_div_1_button" type="button" value="5" onclick="cal.output.value += '5'">
+        <input class="button_div_1_button" type="button" value="6" onclick="cal.output.value += '6'">
+        <input class="button_div_1_button"  type="button" value="+" onclick="cal.output.value += '+'">
+ </div>
+ 
+ <div class="div_2">
+ <div class="button_div_1_button1">     
+        <input class="button_div_1_button123" type="button" value="1" onclick="cal.output.value += '1'">
+        <input class="button_div_1_button123" type="button" value="2" onclick="cal.output.value += '2'">
+        <input class="button_div_1_button123" type="button" value="3" onclick="cal.output.value += '3'">
+ </div>
+
+
+ <div class="button_div_1_button2">     
+        <input class="button_zero" type="button" value="0" onclick="cal.output.value += '0'">
+        <input class="button_point" type="button" value="." onclick="cal.output.value += '.'">
+
+ </div>
+</div>
+ <input class="button_div_1_button_eq" type="button" value="=" onclick="cal.output.value = eval(cal.output.value)">
+    
+
+ </div>
+
+</form>
+</div>
+
+</BODY>
+
+</html>
